@@ -1,0 +1,129 @@
+#overfl{
+    background-color: rgb(183, 253, 183);
+    box-shadow: 5px 5px 5px green ;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    letter-spacing: 10px;
+}
+#zindex{
+    text-transform: uppercase;
+    background-color: rgb(183, 253, 183);
+    box-shadow: 5px 5px 5px green ;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    overflow: hidden; 
+
+}
+#vis{
+    height: 100px;
+    border: 1px solid black;
+    overflow: visible;
+    background-color: salmon;
+    margin: 10px;
+    padding: 10px;
+}
+#hid{
+    height: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: salmon;
+    margin: 10px;
+    padding: 10px;
+
+}
+#scr{
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+    background-color: salmon;
+    margin: 10px;
+    padding: 10px;
+}
+#aut{
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+    background-color: salmon;
+    margin: 10px;
+    padding: 10px;
+}
+
+img{
+    float: right;
+}
+#fllll{
+    background-color: rgb(183, 253, 183);
+    box-shadow: 5px 5px 5px green ;
+    margin: 10px;
+    padding: 10px;
+}
+
+#pslink{
+    background-color: rgb(183, 253, 183);
+    box-shadow: 5px 5px 5px green ;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    display: block;
+    font-size: larger;
+}
+#l1:link{
+    color: red;
+}
+#l2:visited{
+    color: rgb(94, 184, 35);
+    background-color: rgb(126, 187, 236);
+}
+#l3:active{
+    color: chocolate;
+    background-color: purple;
+}
+ #l4:hover{
+    color: rgb(228, 24, 167);
+ }
+ #sudo{
+    display: none;
+ }
+ #divvv:hover #sudo{
+    display: block;
+    background-color: aqua;
+ }
+ #zimge{
+    /* position: absolute; */
+    z-index: 1;
+    /* float: left; */
+ }
+ #paraz{
+    z-index: 1;
+    position: absolute;
+ }
+ #psbeefore::before{
+    background-color: aqua;
+    
+ }
+ #psbeefore::after{
+    background-color: blue;
+ }
+ ::marker{
+    color: rgb(124, 1, 240);
+ }
+ #select::selection{
+    color: palevioletred;
+    background-color: purple;
+ }
+ #psele{
+    background-color: rgb(183, 253, 183);
+    box-shadow: 5px 5px 5px green ;
+    margin: 10px;
+    padding: 10px;
+}
